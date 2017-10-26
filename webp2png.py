@@ -4,7 +4,7 @@ import sys
 import os
 
 path = sys.argv[1]
-dwebppath = "dwebp"
+dwebppath = "./dwebp"
 
 files = [f for f in listdir(path) if isfile(join(path, f))]
 
